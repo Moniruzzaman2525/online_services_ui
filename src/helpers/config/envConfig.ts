@@ -5,5 +5,5 @@ export const getBaseUrl = (): string => {
 };
 
 export const envConfig = {
-  siteUrl: process.env.NEXTAUTH_URL || "http://localhost:3000",
+  siteUrl: process.env.NEXTAUTH_URL || "https://online-services-ui.vercel.app/",
 };

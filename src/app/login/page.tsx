@@ -23,9 +23,9 @@ const LoginPage = () => {
     });
 
     if (login?.ok) {
+      router.push("/");
       toast.success("Login successful");
 
-      router.push("/");
     } else {
       toast.error(login?.error as string);
     }
